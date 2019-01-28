@@ -1,7 +1,7 @@
 Two-Sample Z-Test
 ================
 
-R doesn't have a built-in function to conduct the one-sample z-test. Fortunately the math is simple enough for us to carry out the test using only a few functions. Let start with same data.
+R doesn't have a built-in function to conduct the two-sample z-test. Fortunately the math is simple enough for us to carry out the test using only a few functions. Let start with same data.
 
 ``` r
 mu0 = 0 #The hypothesized difference
