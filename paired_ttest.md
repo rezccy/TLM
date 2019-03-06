@@ -45,7 +45,7 @@ print(p.val)
 If this were a two-tailed test, remember we need to multiply the p-value by 2:
 
 ``` r
-p.val2 = 2*pt(test.stat, df = n - 1, lower.tail = F) #If we were to do a two-tailed test
+p.val2 = 2*pt(abs(test.stat), df = n - 1, lower.tail = F) #If we were to do a two-tailed test
 print(p.val2)
 ```
 
