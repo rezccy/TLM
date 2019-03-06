@@ -36,7 +36,7 @@ The argument `lower.tail = F` is to tell R that we want to find the critical val
 To obtain the p-value, we can use the `pnorm()` function (remember, for a two-tailed test, we need to multiple the resulting probability by 2):
 
 ``` r
-p.val = 2*pnorm(test.stat, lower.tail = F)
+p.val = 2*pnorm(abs(test.stat), lower.tail = F)
 print(p.val)
 ```
 
